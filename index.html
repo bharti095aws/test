@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shoe Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .product {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product h4 {
+      margin: 10px 0 5px;
+      color: #444;
+    }
+
+    .product button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .product button:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .contact {
+      margin-top: 20px;
+    }
+
+    .contact h3 {
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Shoe Store Collection
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="image1.jpg" alt="Shoe 1">
+      <h4>White Sneakers</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image2.jpg" alt="Shoe 2">
+      <h4>Black Running Shoes</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image3.jpg" alt="Shoe 3">
+      <h4>Blue Trainers</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image4.jpg" alt="Shoe 4">
+      <h4>Leather Boots</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image5.jpg" alt="Shoe 5">
+      <h4>Brown Loafers</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image6.jpg" alt="Shoe 6">
+      <h4>Sport Trainers</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image7.jpg" alt="Shoe 7">
+      <h4>Canvas Shoes</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image8.jpg" alt="Shoe 8">
+      <h4>Urban Sneakers</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image9.jpg" alt="Shoe 9">
+      <h4>Leather Formal Shoes</h4>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="image10.jpg" alt="Shoe 10">
+      <h4>Slide Sandals</h4>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <p>Email: bhartividhate@gmail.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+      <p>Address: 123 Shoe Street, Fashion City,sarasnagar</p>
+    </div>
+    <p>&copy; 2025 Shoe Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
